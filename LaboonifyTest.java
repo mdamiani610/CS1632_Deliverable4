@@ -21,10 +21,10 @@ public class LaboonifyTest {
 		
 		for( int i=0; i<100; i++ ){
 			
-			int  n1 = rand.nextInt(10) + 1;
+			int  n1 = rand.nextInt(100) + 1;
 			int[] randomArray = new int[n1];
 			for( int j=0; j<n1; j++ ){
-				int  n2 = rand.nextInt(10) + 1;
+				int  n2 = rand.nextInt(100) + 1;
 				
 				randomArray[j]=n2;
 			}
